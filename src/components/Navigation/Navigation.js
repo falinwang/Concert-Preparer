@@ -6,8 +6,12 @@ import ZipCodeForm from "../ZipCodeForm/ZipCodeForm";
 function Navigation() {
   return (
     <div className="navigation">
-      <Logo />
-      <ZipCodeForm />
+      <div className="logo">
+        <div className="logo__text">
+          <p>Concert Preparer</p>
+        </div>
+      </div>
+      {/* <ZipCodeForm /> */}
     </div>
   );
 }

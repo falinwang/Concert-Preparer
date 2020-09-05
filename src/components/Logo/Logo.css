@@ -1,9 +1,0 @@
-.logo {
-  display: flex;
-  background-color: thistle;
-}
-
-.logo__text > p {
-  font-weight: 800;
-  color: teal;
-}

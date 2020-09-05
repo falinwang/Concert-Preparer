@@ -1,5 +1,16 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  background-color: purple;
+  background-color: rgb(26, 127, 209);
+}
+
+.logo {
+  display: flex;
+  margin-left: 3em;
+}
+
+.logo__text > p {
+  font-size: 2em;
+  font-weight: 800;
+  color: white;
 }
